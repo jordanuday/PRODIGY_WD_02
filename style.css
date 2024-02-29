@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    background: linear-gradient(120deg, rgba(125, 154, 190, 0.867), rgba(61, 119, 189, 0.867));
+}
+
+.section-1 {
+    flex-grow: 1;
+}
+h1{
+
+    font-family: 'Teko', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+h2{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.par{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+button{
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    font-family: 'Teko', sans-serif;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#lap-status {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.clock{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 7px;
+
+
+}
