@@ -1,4 +1,3 @@
-
 $stopwatch 
 with lap functionality.
 
